@@ -1,0 +1,60 @@
+.navbar-brand img {
+    width: 100px;
+    height: 24px;
+    margin-top: 0.2cm
+}
+
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffb619; 
+    
+}
+.navbar-nav{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown-menu.dropdown-large {
+    width: 1000px;
+}
+
+.dropdown-menu h6 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    color: #6c757d;
+}
+
+.dropdown-item {
+    font-weight: 400;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #ffb619;
+}
+
+.dropdown-menu.dropdown-large.dropdown-course {
+    width: 950px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
